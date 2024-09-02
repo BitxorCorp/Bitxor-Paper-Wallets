@@ -20,7 +20,7 @@
   "dependencies": {
     "@pdf-lib/fontkit": "1.0.0",
     "pdf-lib": "1.10.0",
-    "bitxor-qr-library": "git+http://gitlab.local.bitxor.org/bitxor-nodejs-sdk/bitxor-qr-library.git#main",
+    "bitxor-qr-library": "git+https://github.com/BitxorCorp/bitxor-qr-library.git#main",
     "typescript": "^3.7.4"
   },
   "devDependencies": {

@@ -1,0 +1,30 @@
+{
+  "name": "bitxor-paper-wallets",
+  "version": "1.0.1",
+  "description": "Bitxor paper wallets library",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  
+  "bugs": {
+    "url": "http://gitlab.local.bitxor.org/bitxor-nodejs-sdk/bitxor-paper-wallets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://gitlab.local.bitxor.org/bitxor-nodejs-sdk/bitxor-paper-wallets.git"
+  },
+  "homepage": "http://gitlab.local.bitxor.org/bitxor-nodejs-sdk/bitxor-paper-wallets#readme",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@pdf-lib/fontkit": "1.0.0",
+    "pdf-lib": "1.10.0",
+    "bitxor-qr-library": "git+http://gitlab.local.bitxor.org/bitxor-nodejs-sdk/bitxor-qr-library.git#main",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "rxjs": "^6.5.4"
+  }
+}
